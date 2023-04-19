@@ -165,6 +165,12 @@ font-family: 'Merienda One', cursive;
     gap: 1.5rem;
     align-items: flex-start;
 }
+.facility .box-container .box{
+    text-align: center;
+}
+.facility .box-container .box img{
+    height: 10rem;
+}
 
 
 @media (max-width: 991px){
@@ -214,5 +220,8 @@ font-family: 'Merienda One', cursive;
 @media (max-width: 450px){
     html{
         font-size: 50%;
+    }
+    .heading h3{
+        font-size: 3rem;
     }
 }
