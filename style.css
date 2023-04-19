@@ -44,6 +44,22 @@ section{
     max-width: 1200px;
     margin: 0 auto;
 }
+
+.heading{
+    text-align: center;
+    margin-bottom: 3rem;
+}
+.heading img{
+    height: 8rem;
+    margin-bottom: 1rem;
+}
+.heading h3{
+font-size: 4rem;
+color: var(--black);
+font-family: 'Merienda One', cursive;
+}
+
+
 .btn{
     display: inline-block;
     margin-top: 1rem;
@@ -141,6 +157,13 @@ section{
     line-height: 2rem;
     color: var(--light-color);
     font-size: 1.5rem;
+}
+
+.facility .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(27rem, 1fr));
+    gap: 1.5rem;
+    align-items: flex-start;
 }
 
 
