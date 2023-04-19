@@ -115,6 +115,10 @@ section{
     line-height: 2;
 }
 
+.about{
+    
+}
+
 @media (max-width: 991px){
     html{
         font-size: 55%;
