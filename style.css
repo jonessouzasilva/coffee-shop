@@ -182,6 +182,19 @@ font-family: 'Merienda One', cursive;
     font-size: 1.5rem;
     color: var(--light-color);
 }
+.menu .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 30rem);
+    gap: 1.5rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+.menu .box-container .box{
+    text-align: center;
+}
+.menu .box-container .box img{
+    width: 100%;
+}
 
 
 @media (max-width: 991px){
